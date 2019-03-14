@@ -1,0 +1,200 @@
+.menu-page,
+.menu-body {
+    max-width: 100%;
+    @media screen and (max-width: 1245px) {
+        max-width: 100%;
+    }
+}
+
+.menu-container {
+    padding: 8rem 0 10rem;
+    width: 120rem;
+    margin: 0 auto;
+
+    h1 {
+
+        margin-bottom: 6rem;
+
+    }
+    @media screen and (max-width: 1245px) {
+        max-width: 100%;
+    }
+}
+
+.menu-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 4.8rem;
+}
+// THIS ########
+.starters-menu {
+    width: 120rem;
+    padding: 0 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+   
+}
+
+.starters-menu-left {
+    width: 47%;
+}
+
+.starters-menu-right {
+    width: 47%;
+}
+
+.starter-img {
+
+    margin: 0 auto 9rem auto;
+}
+
+//2 menu
+.starters-menu-2 {
+    padding: 0 !important;
+    margin-bottom: 6rem;
+
+}
+
+.top-shelf-wings {
+    text-align: center;
+    position: relative;
+    z-index: -1;
+
+}
+
+.top-shelf-wings,
+.salads {
+    padding: 0 3rem;
+
+    h1 {
+        margin-bottom: 4rem;
+    }
+}
+
+.h3-price {
+    display: block !important;
+
+}
+
+.menu-wings-img {
+    //width: 60rem;
+    position: absolute;
+    left: -2rem;
+    z-index: -1;
+    margin-top: 5rem;
+}
+
+
+// MENU 3 
+.starters-menu-3 {
+    padding: 0 !important;
+    margin-bottom: 6rem;
+}
+
+.kids {
+    position: relative;
+    z-index: -1;
+}
+
+.subtitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+
+.menu-kids-img {
+    position: absolute;
+    left: -2rem;
+    z-index: -1;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+//  MENU 4
+
+.starters-menu-4 {
+    margin-bottom: 16rem;
+}
+.off-the-bench{
+    position: relative;
+    z-index: -1;
+}
+.off-the-bench-img{
+    position: absolute;
+    left: -6rem;
+    z-index: -1;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+// MENU 5 
+
+.starters-menu-5{
+
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+.sides {
+    position: relative;
+    z-index: -1;
+}
+.menu-sides-img{
+    position: absolute;
+    left: -2.5rem;
+    z-index: -1;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+@media screen and(max-width:1170px){
+    .menu-page{
+     max-width: 1170px;
+    }
+    .starter-img{
+        width: 98%;
+        height: auto;
+       }
+ }
+
+ @media screen and(max-width:768px){
+    .menu-container{
+     max-width: 768px;
+     width: 95%;
+     padding: 0;
+    }
+
+   .starters-menu{
+        flex-direction: column;
+      width: 100%;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+   }
+  
+   .starters-menu-left,.starters-menu-right{
+       max-width:95%;
+        width: 100%; 
+   }
+
+   .salads{
+       margin-top: 1rem;
+   }
+   .starter-img ,.menu-wings-img, .menu-kids-img, .off-the-bench-img, .menu-sides-img{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    position: initial;
+   }
+ }
+
+// /*! debug.css | MIT License | zaydek.github.com/debug.css */
+// *:not(path):not(g) {
+// 	color:                    hsla(210, 100%, 100%, 0.9) !important;
+// 	background:               hsla(210, 100%,  50%, 0.5) !important;
+// 	outline:    solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+
+// 	box-shadow: none !important;
+// }

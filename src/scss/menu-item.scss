@@ -1,0 +1,33 @@
+.menu-item{
+    margin-bottom: 3rem;
+}
+.item-header{
+
+    color: $navlink-color;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.header-and-price{
+    display: flex;
+    justify-content: space-between;
+}
+.item-price{
+    font-size: 3rem;
+    font-weight: 400;
+    color: $footer-gray-color;
+}
+.item-text{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: black;
+    line-height: 3rem;
+}
+
+@media screen and(max-width:768px){
+    .menu-item{
+        width: 100%;
+    }
+    .header-and-price{
+        // justify-content: space-around;
+    }
+}

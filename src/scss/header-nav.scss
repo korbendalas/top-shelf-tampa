@@ -1,0 +1,98 @@
+.header-nav {
+   
+    width: 100%;
+    height: 9rem;
+  position: fixed;
+  
+    //background-image: linear-gradient(black, white);
+    background-image:  linear-gradient( rgba(0, 0, 0,1), rgba(255, 255, 255, 0));
+    text-align: center;
+z-index: 1111;
+}
+
+.header-nav-container {
+    margin: 0 auto;
+    max-width: 140rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+.header-logo {
+    margin-left: 3rem;
+    width: 19.7rem;
+    height: 4rem;
+}
+
+.nav-right {
+    color: $navlink-color;
+    margin-right: 2.5rem;
+    position: relative;
+    // display: flex;
+    // justify-content: space-around;
+    font-size: 1.4rem;
+
+    a {
+
+        display: inline-block;
+        color: $navlink-color;
+        line-height: 3.7rem;
+        min-width: 9rem;
+
+    }
+
+    a:visited,
+    a:active {
+        color: $navlink-color;
+    }
+
+    a:hover {
+        color: white;
+        background-color: $dropdown-color;
+
+    }
+
+    ;
+}
+
+//on hover to display dropdown
+// .nav-right a:hover .dropdown {
+//     display: block;
+// }
+.nav-right a:hover .dropdown {
+    display: block;
+
+}
+
+.dropdown {
+    display: inline-block;
+    background-color: $dropdown-color;
+    display: none;
+    // opacity: 0;
+    position: absolute;
+    min-width: 17.5rem;
+    top: 37px;
+    li {
+        max-width: 100%;
+    }
+
+    &:hover {
+        display: block
+    };
+}
+
+.menu-dropdown { 
+    right: 47px;
+}
+
+.contact-dropdown {
+   
+    right: -40px;
+
+}
+
+@media screen and(max-width:768px) {
+    .nav-right{display: none}
+}

@@ -1,0 +1,40 @@
+.button {
+    text-align: center;
+    font-size: 1.4rem;
+    display: inline-block;
+    max-width: 18rem;
+    width: 100%;
+     line-height: 6rem;
+    min-height: 6rem;
+    border: none;
+    cursor: pointer;
+    
+}
+.button-size{
+    line-height: 3rem !important;
+}
+.button-blue {
+    color: white;
+    background-color: $navlink-color !important;
+}
+
+.button-orange {
+    color: white;
+    background-color: $button-orange-color;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+        background-color: $button-dark-color;
+
+    }
+}
+
+.button-dark {
+    color: white;
+    background-color: $button-dark-color;
+
+    &:hover {
+        background-color: $button-orange-color;
+
+    }
+}

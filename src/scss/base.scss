@@ -1,0 +1,30 @@
+$footer-color:#1f343d;
+$navlink-color:#00a3e6;
+$footer-gray-color:#9c9c9c;
+$button-orange-color:#d75100;
+$dropdown-color:$footer-color;
+$button-dark-color:$footer-color;
+$heading-color:#1f343d;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px , 16px/10px = 62.5%*/
+}
+ 
+body{
+   
+ font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: white;
+}
+
+a{text-decoration: none};
+ul {list-style: none};

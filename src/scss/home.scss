@@ -1,0 +1,340 @@
+// STYLING FOR HOME 
+.home {}
+
+.snow {
+    position: relative;
+    min-height: 55rem;
+    width: 100%;
+    background: url("../img/snow-bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.snow-top {
+   // display: none;
+    background: url("../img/snow-bg-top.png") repeat-x;
+    height:16.5rem;
+    width: 100%;
+    position: absolute;
+    
+    top: -7rem;
+}
+
+.cheer-team-button {
+    margin: 6rem 0 !important;
+}
+
+
+.home-menu {
+    width: 100%;
+    padding: 6rem 0;
+}
+
+.home-menu-container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.yelp {
+    width: 24.8rem;
+    height: 30.9rem;
+    background-color: gray;
+    margin: 0 auto 4rem;
+}
+
+.home-menu-container-item {
+    display: flex;
+    margin-bottom: 5rem;
+
+    div:first-of-type {
+        padding: 3rem 0 3rem 5rem;
+    }
+
+    p:first-of-type {
+        margin: 2.5rem 0 6rem;
+    }
+
+    img {
+        height: 40rem;
+    }
+}
+
+.happy-hour {
+    height: 52rem;
+    background-color: rgba(0, 163, 230, 0.7);
+    width: 100%;
+    background: url("../img/happy-hours-bg.jpg") no-repeat center center fixed; //responsive img
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.happy-hour-container {
+    color: white;
+    max-width: 50rem;
+    width: 100%;
+
+    // margin:0 auto;
+    // vertical-align: baseline;
+    text-align: center;
+
+    h2,
+    h4 {
+
+        line-height: 4.8rem;
+        font-weight: 700;
+    }
+
+    h4 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 4.8rem;
+    }
+
+    p {
+        margin-top: 6rem;
+    }
+
+    p:first-of-type {
+        font-size: 1.8rem;
+        line-height: 3rem;
+        font-weight: 400;
+    }
+}
+
+// STYLING FOR SLIDER
+.slider {
+    position: relative;
+   min-height: 97vh;
+    width: 100%;
+}
+
+.arrow-right,
+.arrow-left {
+    display: inline-block !important;
+    height: 2.2rem;
+    width: 1.2rem;
+    z-index: 3;
+    top: 50%;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.arrow-right {
+    position: absolute;
+    right: 3rem;
+
+}
+
+.arrow-left {
+    position: absolute;
+    left: 3rem;
+
+}
+
+.slider-img {
+
+    min-height: 100vh;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    // width: 100%;
+    img {
+        width: 100% !important;
+        min-height: 100% !important;
+    }
+
+}
+
+.slider-img-1 {
+    background: url("../img/slider/slider1.jpg");
+   
+}
+.slider-img-2 {
+    background: url("../img/slider/slider2.jpg");
+
+}
+.slider-img-3 {
+    background: url("../img/slider/slider3.jpg");
+
+}
+.slider-img-4 {
+    background: url("../img/slider/slider4.jpg");
+
+}
+.slider-img-5 {
+    background: url("../img/slider/slider5.jpg");
+
+}
+.slider-img-6 {
+    background: url("../img/slider/slider6.jpg");
+
+}
+
+.slider-img-container {
+
+    max-width: 120rem;
+    width: 100%;
+    margin: auto;
+    color: #fff;
+
+    h1 {
+        margin-bottom: 2rem;
+        font-weight: 700;
+        font-size: 6rem;
+    }
+p{
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+    a {
+        margin: 5rem 0;
+    }
+
+    a:first-of-type {
+        margin-right: 2rem;
+    }
+
+
+}
+.slider-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.slider-bounce {
+    position: absolute;
+    z-index: 6;
+
+    top: 75%;
+    left: 48%;
+
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes bounce {
+    0% {
+        top: 75%
+    }
+
+    40% {
+        top: 76%
+    }
+
+    100% {
+        top: 75%
+    }
+}
+
+// MEDIA QUERIES
+
+@media screen and(max-width:1024px){
+    // max-width: $width-laptop;
+    
+ }
+ @media screen and(max-width:768px) {
+.snow{
+    max-width: 768px;
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+ 
+    }
+    .cheer-team-home{
+        padding-top: 3rem;
+    }
+    .slider-bounce {
+        position: absolute;
+        z-index: 6;
+    
+        top: 80%;
+        left: 44%;
+    
+        animation-name: bounce;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    
+    }
+    
+    @keyframes bounce {
+        0% {
+            top: 80%
+        }
+    
+        40% {
+            top: 81%
+        }
+    
+        100% {
+            top: 80%
+        }
+    }
+
+    .slider-buttons{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        a:first-of-type{
+            margin: .5rem 0;
+        }
+        a{
+            margin: 0;
+        }
+    }
+.home-menu{
+    padding-bottom: 1rem;
+}
+    .home-menu-container {
+        img{
+        max-width: 768px;
+        width: 100%;
+        height: 100%;
+        position: initial;
+        }
+    }
+
+    .home-menu-container-item {
+        flex-direction: column;
+        margin-bottom: 0;
+    
+        div:first-of-type {
+          //  padding: 3rem 0 3rem 5rem;
+        }
+    
+        p:first-of-type {
+           // margin: 2.5rem 0 6rem;
+        }
+      
+    }
+    
+    
+
+ }
+
+
+
+// /*! debug.css | MIT License | zaydek.github.com/debug.css */
+// *:not(path):not(g) {
+//     color: hsla(210, 100%, 100%, 0.9) !important;
+//     background: hsla(210, 100%, 50%, 0.5) !important;
+//     outline: solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+
+//     box-shadow: none !important;
+// }

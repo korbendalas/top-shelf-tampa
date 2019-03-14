@@ -1,0 +1,129 @@
+.header-paralax {
+    color: white;
+    min-height: 65vh;
+    background-size: cover;
+    min-width: 100%;
+    // @media screen and (max-width: 1245px) {
+    //     min-width: 1245px;
+    // }
+}
+
+
+.header-paralax-menu {
+  
+    background: url("../img/header-paralax/menu_bcg.jpg") no-repeat center center fixed; //responsive img   
+}
+.header-paralax-drinks-menu{
+    background: url("../img/header-paralax/drinks.jpg") no-repeat center center fixed; //responsive img
+
+}
+//They are using the same Bg image
+.header-paralax-weekly-specials, .header-paralax-contact-us{
+    background: url("../img/header-paralax/specials-bg.jpg") no-repeat center center fixed; //responsive img  
+}
+.header-paralax-catering{
+    background: url("../img/header-paralax/catering_bcg.jpg") no-repeat center center fixed; //responsive img
+
+}
+.header-paralax-join-the-team{
+    background: url("../img/header-paralax/team_bcg.jpg") no-repeat center center fixed; //responsive img
+
+}
+.header-paralax-about{
+    background: url("../img/header-paralax/about-top-bg.jpg") no-repeat center center fixed; //responsive img
+
+}
+
+
+.header-paralax-container {
+
+    max-width: 120rem;
+    padding-top: 9rem;
+   height: 60vh;
+    display: flex;
+    margin: 0 auto;
+    max-height: 100%;  
+    &>*{margin:auto auto};
+
+    // @media screen and (max-width: 1245px) {
+    //     min-width: 1245px;
+    // }
+}
+
+.header-paralax-content {
+    margin-right: 13rem;
+    padding-left: 5rem;
+    width: 50%;
+    //height: 100%;
+
+}
+// needs to be more wider than usual
+.header-paralax-content-weekly, .extend-content{
+    width: 80% !important;
+    margin-right: 0 !important;
+}
+
+.button-div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+   justify-content: center;
+   //align-items: baseline;
+   &>*{margin:auto auto auto 0}
+
+}
+
+.header-name{
+    font-size: 6rem;
+    font-weight: 700;
+}
+.header-text{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+@media screen and(max-width:768px){
+    .header-paralax{
+      
+       // max-height: 50%;
+       // height: 100%;
+    }
+   .header-paralax-container{
+   
+    max-width: 100%;
+    width: 100%;
+    // height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    .header-paralax-content{
+        width: 100%;
+       margin-right: 0;
+        padding-left: 2rem;
+    }
+    .header-name{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+    .header-text{
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .button-div{
+        a{
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+    
+}
+
+
+// /*! debug.css | MIT License | zaydek.github.com/debug.css */
+// *:not(path):not(g) {
+// 	color:                    hsla(210, 100%, 100%, 0.9) !important;
+// 	background:               hsla(210, 100%,  50%, 0.5) !important;
+// 	outline:    solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+
+// 	box-shadow: none !important;
+// }

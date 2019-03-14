@@ -1,0 +1,56 @@
+.drinks-menu-container{
+
+    width: 120rem;
+    padding: 3.5rem  5rem 0;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+//append to heading and container where is one row heading to reduce padding and margin
+
+.one-row{
+    padding-bottom: 2rem !important;
+    margin-bottom: 0 !important;
+    padding-top: 1rem !important;
+}
+
+.drinks-menu-left{
+    width: 47%;
+}
+.drinks-menu-right{
+    width: 47%;
+}
+.drinks-menu-heading{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color:$heading-color;
+}
+.margin-bottom{
+    margin-bottom: 26.5rem;
+}
+.margin-top{
+    margin-top:10rem;
+}
+
+@media screen and(max-width:768px){
+
+    .drinks-menu-container {
+        max-width: 768px;
+     width: 95%;
+     padding: 0;
+     flex-direction: column;
+     margin-bottom: 2rem;
+     margin-top: 1.5rem;
+    }
+    .drinks-menu-left,.drinks-menu-right{
+        max-width:95%;
+         width: 100%; 
+         margin: 0 .5rem;
+
+    }
+    .drinks-menu-heading{
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}

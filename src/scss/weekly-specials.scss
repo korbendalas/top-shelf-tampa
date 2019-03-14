@@ -1,0 +1,25 @@
+.weekly-specials-container{
+    width: 120rem;
+    margin: 0 auto;
+    padding: 6.5rem 5rem 9.5rem;
+}
+
+@media screen and(max-width:768px){
+
+    .weekly-specials-container{
+        max-width: 768px;
+        width: 95%;
+        padding: 0;
+        margin-top: 1.5rem;
+    }
+   
+
+    .header-paralax-content-weekly, .extend-content{
+        width:80% !important;
+        margin: auto !important;
+      //  height: 30rem !important; //################<-------
+    }
+    .button-div{
+        display: none;
+    }
+}
