@@ -4,20 +4,20 @@ self.__precacheManifest = [
     "url": "/top-shelf-tampa/static/media/slider3.50b507a3.jpg"
   },
   {
-    "revision": "b6120c92863f503c747b",
-    "url": "/top-shelf-tampa/static/css/main.04af8356.chunk.css"
+    "revision": "15f2fd66aa02c0223153",
+    "url": "/top-shelf-tampa/static/css/main.58c4af23.chunk.css"
   },
   {
     "revision": "e37ae64211326d463775",
     "url": "/top-shelf-tampa/static/js/runtime~main.e37ae642.js"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/top-shelf-tampa/static/media/slick.d41f55a7.ttf"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/top-shelf-tampa/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "01ac11d41d6d7f742d25",
-    "url": "/top-shelf-tampa/static/js/2.01ac11d4.chunk.js"
+    "revision": "9dabb289df1b4f16c0a4",
+    "url": "/top-shelf-tampa/static/js/2.9dabb289.chunk.js"
   },
   {
     "revision": "4d9e936f89bed5ae77d4ee4616a4fcdb",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/top-shelf-tampa/static/media/slider2.435e3b4a.jpg"
   },
   {
-    "revision": "b6120c92863f503c747b",
-    "url": "/top-shelf-tampa/static/js/main.b6120c92.chunk.js"
+    "revision": "15f2fd66aa02c0223153",
+    "url": "/top-shelf-tampa/static/js/main.15f2fd66.chunk.js"
   },
   {
     "revision": "664992b6e8f3c9451b9ec3570c748a05",
@@ -92,6 +92,10 @@ self.__precacheManifest = [
     "url": "/top-shelf-tampa/static/media/hockey-stick.40114ac3.png"
   },
   {
+    "revision": "83f1800183b5abd4a23896f8b18668cb",
+    "url": "/top-shelf-tampa/static/media/snow-bg.83f18001.jpg"
+  },
+  {
     "revision": "28ab3087a6395918dcbd23f1a1880b03",
     "url": "/top-shelf-tampa/static/media/snow-bg-top.28ab3087.png"
   },
@@ -108,8 +112,8 @@ self.__precacheManifest = [
     "url": "/top-shelf-tampa/static/media/drinks.c232fac3.jpg"
   },
   {
-    "revision": "83f1800183b5abd4a23896f8b18668cb",
-    "url": "/top-shelf-tampa/static/media/snow-bg.83f18001.jpg"
+    "revision": "3ecaed158f840904f40e07ebe1eae70c",
+    "url": "/top-shelf-tampa/static/media/specials-bg.3ecaed15.jpg"
   },
   {
     "revision": "9eec1d6ebb1a2e7dcbe62a586bacf135",
@@ -124,10 +128,6 @@ self.__precacheManifest = [
     "url": "/top-shelf-tampa/static/media/about-top-bg.64e930f1.jpg"
   },
   {
-    "revision": "3ecaed158f840904f40e07ebe1eae70c",
-    "url": "/top-shelf-tampa/static/media/specials-bg.3ecaed15.jpg"
-  },
-  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/top-shelf-tampa/static/media/slick.ced611da.eot"
   },
@@ -136,15 +136,15 @@ self.__precacheManifest = [
     "url": "/top-shelf-tampa/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/top-shelf-tampa/static/media/slick.f97e3bbf.svg"
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/top-shelf-tampa/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "01ac11d41d6d7f742d25",
+    "revision": "9dabb289df1b4f16c0a4",
     "url": "/top-shelf-tampa/static/css/2.38e1d74f.chunk.css"
   },
   {
-    "revision": "c6feefcfdec7ccfa8455bfba2157abdd",
+    "revision": "939c278d0cda7fe5d6e8613117713f15",
     "url": "/top-shelf-tampa/index.html"
   }
 ];
