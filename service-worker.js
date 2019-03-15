@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/top-shelf-tampa/precache-manifest.a61c8ca2169f7b8961a76a1d2fa19138.js"
+  "/top-shelf-tampa/precache-manifest.a8f89899052a0850e29a9ef1c1874ce9.js"
 );
 
 workbox.clientsClaim();
