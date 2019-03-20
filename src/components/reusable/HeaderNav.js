@@ -1,9 +1,13 @@
 import React from 'react';
 import navLogo from '../../img/logo_header.svg';
-import {Link} from 'react-router-dom';
+import { Link} from 'react-router-dom';
+import SideMenu from './SideMenu';
+import ToggleButton from './ToggleButton';
 
+const HeaderNav =(props)=> {
 
-const HeaderNav =()=>{
+   
+   
     return(
 
         <div className="header-nav">
@@ -28,9 +32,11 @@ const HeaderNav =()=>{
 
                 </Link>
             </div>
-            
+                <ToggleButton click={props.onClickMenu} />
+                
             </div>
         </div>
     );
-}
+} 
+
 export default HeaderNav;

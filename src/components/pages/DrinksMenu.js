@@ -5,7 +5,7 @@ import MenuItem2 from '../reusable/MenuItem2';
 
 const DrinksMenu =()=>{
     return(
-        <div class='drinks-menu'>
+        <div className='drinks-menu'>
             <HeaderParalax nameClass="drinks-menu"
             headerName="DRINKS MENU"
             headerText="Our bartenders have put together a special drink 

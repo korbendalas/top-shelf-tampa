@@ -3,7 +3,6 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import '../scss/main.scss';
 
-
 import About from './pages/About';
 import Catering from './pages/Catering';
 import ContactUs from './pages/ContactUs';
@@ -16,15 +15,43 @@ import WeeklySpecials from './pages/WeeklySpecials';
 import HeaderNav from './reusable/HeaderNav';
 import Footer from './reusable/Footer';
 
-
+import SideMenu from './reusable/SideMenu';
+import Backdrop from './reusable/Backdrop';
 
 class App extends Component {
+
+  state={sideMenu:false};
+
+   onClickMenu=()=>{
+    // prevState is passed default by react
+    //with method ensures to be changed state
+        this.setState((prevState)=>{
+          return {sideMenu: !prevState.sideMenu}
+        });
+   };
+   backdropClick =()=>{
+     this.setState({
+       sideMenu:false
+     });
+   };
+
   render() {
+    // ako je sideMenu true, iscrtace backdrop. 
+     let backdrop;
+     if(this.state.sideMenu){
+       backdrop=<Backdrop click = {this.backdropClick}/>
+     }
+
+
     return (
-      <div className="App">
+      <div className="App" style={{height: "100%"}}>
+{/* SideMenu je uvek prisutan, backdrop nije  */}
+      <SideMenu show={this.state.sideMenu}/>
+{backdrop}
           <HashRouter >
                 <div>
-                 <HeaderNav/>
+                 <HeaderNav onClickMenu={this.onClickMenu} />
+                
                     <Switch>
                         <Route path="/" exact component={Home} />
                         <Route path="/about" exact component={About} />
@@ -40,7 +67,6 @@ class App extends Component {
                 
             </HashRouter>
 
-           
       </div>
     );
   }

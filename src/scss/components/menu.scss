@@ -1,9 +1,7 @@
 .menu-page,
 .menu-body {
-    max-width: 100%;
-    @media screen and (max-width: 1245px) {
-        max-width: 100%;
-    }
+    width: 100%;
+
 }
 
 .menu-container {
@@ -16,9 +14,7 @@
         margin-bottom: 6rem;
 
     }
-    @media screen and (max-width: 1245px) {
-        max-width: 100%;
-    }
+
 }
 
 .menu-heading {
@@ -26,6 +22,7 @@
     font-weight: 700;
     font-size: 4.8rem;
 }
+
 // THIS ########
 .starters-menu {
     width: 120rem;
@@ -34,7 +31,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-   
+
 }
 
 .starters-menu-left {
@@ -111,18 +108,21 @@
     z-index: -1;
     margin-bottom: 5rem;
     margin-top: 3rem;
+    height: 700px;
 }
 
 //  MENU 4
 
 .starters-menu-4 {
-    margin-bottom: 16rem;
+    margin-bottom: 11rem;
 }
-.off-the-bench{
+
+.off-the-bench {
     position: relative;
     z-index: -1;
 }
-.off-the-bench-img{
+
+.off-the-bench-img {
     position: absolute;
     left: -6rem;
     z-index: -1;
@@ -132,16 +132,18 @@
 
 // MENU 5 
 
-.starters-menu-5{
+.starters-menu-5 {
 
     margin-bottom: 6rem;
     margin-top: 6rem;
 }
+
 .sides {
     position: relative;
     z-index: -1;
 }
-.menu-sides-img{
+
+.menu-sides-img {
     position: absolute;
     left: -2.5rem;
     z-index: -1;
@@ -149,46 +151,66 @@
     margin-top: 3rem;
 }
 
-@media screen and(max-width:1170px){
-    .menu-page{
-     max-width: 1170px;
+@media screen and(max-width:1210px) {
+
+    .menu-container,
+    .starters-menu {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+            position: initial;
+        }
     }
-    .starter-img{
+
+    .starter-img {
         width: 98%;
         height: auto;
-       }
- }
+        margin: 0 auto;
+    }
+    .starters-menu-3 {
+        padding: 0 5rem !important;
+        margin-bottom: 6rem;
+    }
+}
 
- @media screen and(max-width:768px){
-    .menu-container{
-     max-width: 768px;
-     width: 95%;
-     padding: 0;
+@media screen and(max-width:768px) {
+    .menu-container {
+        max-width: 768px;
+        width: 95%;
+        padding: 0;
     }
 
-   .starters-menu{
+    .starters-menu {
         flex-direction: column;
-      width: 100%;
+        width: 100%;
         align-items: center;
         padding: 0;
         margin: 0;
-   }
-  
-   .starters-menu-left,.starters-menu-right{
-       max-width:95%;
-        width: 100%; 
-   }
+    }
 
-   .salads{
-       margin-top: 1rem;
-   }
-   .starter-img ,.menu-wings-img, .menu-kids-img, .off-the-bench-img, .menu-sides-img{
-    max-width: 768px;
-    width: 100%;
-    height: auto;
-    position: initial;
-   }
- }
+    .starters-menu-left,
+    .starters-menu-right {
+        max-width: 95%;
+        width: 100%;
+    }
+
+    .salads {
+        margin-top: 1rem;
+    }
+
+    .starter-img,
+    .menu-wings-img,
+    .menu-kids-img,
+    .off-the-bench-img,
+    .menu-sides-img {
+        max-width: 768px;
+        width: 100%;
+        height: auto;
+        position: initial;
+    }
+}
 
 // /*! debug.css | MIT License | zaydek.github.com/debug.css */
 // *:not(path):not(g) {

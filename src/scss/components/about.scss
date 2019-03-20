@@ -90,6 +90,44 @@
     margin-top: 8rem;
 }
 
+@media screen and(max-width:1210px) {
+    .cheer-team {
+        background-image: none;
+    }
+    .about-menu{
+        width: 100%;}
+    .about-img-1-container,
+    .about-img-2-container{
+        width: 50%;
+    }
+    .about-img-1,
+    .about-img-2
+     {
+        width: 100%;
+        height: auto;
+    }
+    
+    .about-img-1-text,
+    .about-buttons,
+    .about-menu-text{
+        width: 100%;
+    }
+
+    .about-img-1-text {
+        font-size: 2rem;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and(max-width:1024px) {
+   
+    .about-menu{
+        
+        padding-bottom: 2rem;
+    }
+    
+}
 @media screen and(max-width:768px) {
 
     .cheer-team-container,
@@ -100,9 +138,7 @@
        
     }
 
-    .cheer-team {
-        background-image: none;
-    }
+    
 
     .about-menu {
         flex-direction: column;
@@ -124,12 +160,7 @@
         text-align: justify;
     } 
 
-    .about-img-1-text {
-        font-size: 2rem;
-        padding: 1rem 2rem;
-        display: flex;
-        align-items: center;
-    }
+   
 .about-img-2-container{
     margin-top: .5rem;
 }

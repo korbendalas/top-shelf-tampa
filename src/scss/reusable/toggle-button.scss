@@ -1,0 +1,19 @@
+.toggle-button{
+     color: $navlink-color;
+    font-size: 3rem;
+    margin-right: 3rem;
+    display: none;
+   background: transparent;
+   border: none;
+   cursor: pointer;
+
+   &:focus{
+       outline: none;
+   }
+}
+
+
+@media screen and(max-width:768px) {
+    
+    .toggle-button{display: block}
+}

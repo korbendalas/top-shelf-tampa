@@ -1,19 +1,22 @@
 @import "base";
-@import "header";
-@import "header-nav";
-@import "header-paralax";
-@import "menu";
-@import "footer";
-@import "typography";
-@import "button";
-@import "menu-item";
-@import "menu-item-2";
-@import "drinks-menu";
-@import "weekly-item";
-@import "weekly-specials";
-@import 'contact-us';
-@import 'about.scss';
-@import "home";
-@import "responsive";
+@import "./reusable/header";
+@import "./reusable/header-nav";
+@import "./reusable/header-paralax";
+@import "./components/menu";
+@import "./reusable/footer";
+
+@import "./reusable/button";
+@import "./reusable/menu-item";
+@import "./reusable/menu-item-2";
+@import "./components/drinks-menu";
+@import "./reusable/weekly-item";
+@import "./components/weekly-specials";
+@import './components/contact-us';
+@import './components/about.scss';
+@import "./components/home";
+@import "./reusable/side-menu";
+@import './reusable/backdrop.scss';
+@import "./reusable/toggle-button";
+
 
 

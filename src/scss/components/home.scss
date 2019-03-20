@@ -10,12 +10,12 @@
 }
 
 .snow-top {
-   // display: none;
+    // display: none;
     background: url("../img/snow-bg-top.png") repeat-x;
-    height:16.5rem;
+    height: 16.5rem;
     width: 100%;
     position: absolute;
-    
+
     top: -7rem;
 }
 
@@ -108,7 +108,7 @@
 // STYLING FOR SLIDER
 .slider {
     position: relative;
-   min-height: 97vh;
+    min-height: 97vh;
     width: 100%;
 }
 
@@ -160,24 +160,29 @@
 
 .slider-img-1 {
     background: url("../img/slider/slider1.jpg");
-   
+
 }
+
 .slider-img-2 {
     background: url("../img/slider/slider2.jpg");
 
 }
+
 .slider-img-3 {
     background: url("../img/slider/slider3.jpg");
 
 }
+
 .slider-img-4 {
     background: url("../img/slider/slider4.jpg");
 
 }
+
 .slider-img-5 {
     background: url("../img/slider/slider5.jpg");
 
 }
+
 .slider-img-6 {
     background: url("../img/slider/slider6.jpg");
 
@@ -195,11 +200,12 @@
         font-weight: 700;
         font-size: 6rem;
     }
-p{
-    font-weight: 300;
-    font-size: 1.8rem;
-    line-height: 3rem;
-}
+
+    p {
+        font-weight: 300;
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
 
     a {
         margin: 5rem 0;
@@ -211,7 +217,8 @@ p{
 
 
 }
-.slider-buttons{
+
+.slider-buttons {
     display: flex;
     justify-content: center;
 }
@@ -221,8 +228,8 @@ p{
     z-index: 6;
 
     top: 75%;
-    left: 48%;
-
+    left: 50%;
+    margin-left: -35px;
     animation-name: bounce;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -245,88 +252,86 @@ p{
 
 // MEDIA QUERIES
 
-@media screen and(max-width:1024px){
+@media screen and(max-width:1024px) {
     // max-width: $width-laptop;
-    
- }
- @media screen and(max-width:768px) {
-.snow{
-    max-width: 768px;
-    width: 100%;
-    min-height: 100%;
-    padding: 0;
- 
-    }
-    .cheer-team-home{
-        padding-top: 3rem;
-    }
-    .slider-bounce {
-        position: absolute;
-        z-index: 6;
-    
-        top: 80%;
-        left: 44%;
-    
-        animation-name: bounce;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-    
-    }
-    
-    @keyframes bounce {
-        0% {
-            top: 80%
-        }
-    
-        40% {
-            top: 81%
-        }
-    
-        100% {
-            top: 80%
-        }
+
+}
+
+@media screen and(max-width:768px) {
+    .snow {
+        max-width: 768px;
+        width: 100%;
+        min-height: 100%;
+        padding: 0;
+
     }
 
-    .slider-buttons{
+    .cheer-team-home {
+        padding-top: 3rem;
+    }
+
+    .slider-buttons {
         display: flex;
         align-items: center;
-        flex-direction: column;
-        a:first-of-type{
+        // flex-direction: column;
+
+        a:first-of-type {
             margin: .5rem 0;
         }
-        a{
+
+        a {
             margin: 0;
         }
     }
-.home-menu{
-    padding-bottom: 1rem;
-}
+
+    .home-menu {
+        padding-bottom: 1rem;
+    }
+
     .home-menu-container {
-        img{
-        max-width: 768px;
-        width: 100%;
-        height: 100%;
-        position: initial;
+        img {
+            max-width: 768px;
+            width: 100%;
+            height: 100%;
+            position: initial;
         }
     }
 
     .home-menu-container-item {
         flex-direction: column;
         margin-bottom: 0;
-    
-        div:first-of-type {
-          //  padding: 3rem 0 3rem 5rem;
-        }
-    
-        p:first-of-type {
-           // margin: 2.5rem 0 6rem;
-        }
-      
-    }
-    
-    
 
- }
+        div:first-of-type {
+            //  padding: 3rem 0 3rem 5rem;
+        }
+
+        p:first-of-type {
+            // margin: 2.5rem 0 6rem;
+        }
+
+    }
+
+    .slider-img-container {
+
+        max-width: 120rem;
+        width: 100%;
+        margin: auto;
+        color: #fff;
+    
+        h1 {
+            margin-bottom: 1rem;
+            font-weight: 700;
+            font-size: 3rem;
+        }
+        p{
+            width: 80%;
+            margin: 0 auto;
+        }
+   
+    }
+
+
+}
 
 
 
