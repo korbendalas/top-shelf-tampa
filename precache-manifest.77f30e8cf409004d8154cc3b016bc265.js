@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/top-shelf-tampa/static/media/slider3.50b507a3.jpg"
   },
   {
-    "revision": "ee5e133bfeba23945f33",
-    "url": "/top-shelf-tampa/static/css/main.0c9b85b2.chunk.css"
+    "revision": "05f3aae5e11283ab354f",
+    "url": "/top-shelf-tampa/static/css/main.1ec3e5f9.chunk.css"
   },
   {
     "revision": "e37ae64211326d463775",
     "url": "/top-shelf-tampa/static/js/runtime~main.e37ae642.js"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/top-shelf-tampa/static/media/slick.b7c9e1e4.woff"
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/top-shelf-tampa/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "01ac11d41d6d7f742d25",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/top-shelf-tampa/static/media/slider2.435e3b4a.jpg"
   },
   {
-    "revision": "ee5e133bfeba23945f33",
-    "url": "/top-shelf-tampa/static/js/main.ee5e133b.chunk.js"
+    "revision": "05f3aae5e11283ab354f",
+    "url": "/top-shelf-tampa/static/js/main.05f3aae5.chunk.js"
   },
   {
     "revision": "664992b6e8f3c9451b9ec3570c748a05",
@@ -128,23 +128,23 @@ self.__precacheManifest = [
     "url": "/top-shelf-tampa/static/media/happy-hours-bg.52cfaedb.jpg"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/top-shelf-tampa/static/media/slick.ced611da.eot"
-  },
-  {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/top-shelf-tampa/static/media/slick.d41f55a7.ttf"
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/top-shelf-tampa/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/top-shelf-tampa/static/media/slick.f97e3bbf.svg"
   },
   {
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/top-shelf-tampa/static/media/slick.ced611da.eot"
+  },
+  {
     "revision": "01ac11d41d6d7f742d25",
     "url": "/top-shelf-tampa/static/css/2.38e1d74f.chunk.css"
   },
   {
-    "revision": "e459af84c0acf2ccb9094db6a74623f9",
+    "revision": "94d2d17321e75ebd0b05076cd61f312e",
     "url": "/top-shelf-tampa/index.html"
   }
 ];
